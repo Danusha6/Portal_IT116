@@ -1,23 +1,24 @@
 /* Global rules */
 .topnav {
     margin: auto;
-    background-color: rgb(95,95,95);
+    background-color: rgb(141, 220, 183);
     overflow: auto;
 }
-
 .topnav a {
     float: left;
     display: block;
-    color: whitesmoke;
+    color: black;
     text-align: center;
-    padding: 12px 12px;
+    padding: 8px 0 8px 0;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 20px;
+    width:20%
 }
 
 .topnav a.hover, .active {
-    background-color: darkcyan;
+    background-color: rgb(88, 193, 146);
+    color: white;
 }
 
 .topnav .icon {

@@ -1,11 +1,13 @@
 /* Global rules */
-
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.95em;
+    background-color: rgb(59, 106, 89);
+    /* font-family: 'Cormorant', serif; */
+    font-family: 'BioRhyme', serif;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
 
@@ -15,14 +17,19 @@ html {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight:normal;
+    /* font-size: 50px; */
     margin: auto;
-    background: #fff;
+    background: #f5f5dc;
     line-height: 2.5em;
+    text-shadow: 2px 2px 2px black;
+}
+h1.page-header{
+    font-family: 'Old Standard TT', serif;
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #f5f5dc;
     overflow: auto;
 }
 
@@ -37,14 +44,14 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:blue;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    background-color: rgb(217, 213, 213);
     text-decoration: none;
+    color:blueviolet;
 }
 
 footer {
@@ -74,7 +81,6 @@ footer {
     }
     
 }
-
 /* TABLET */
 @media all and (min-width:501px) and (max-width:1199px) {
     main.wrapper {
@@ -104,6 +110,7 @@ footer {
     h1 {
         width: 99%;
         padding-left: 1%;
+        font-size: 35px;
     }
     
     picture.profile img {
